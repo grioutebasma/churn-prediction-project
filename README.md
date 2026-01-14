@@ -1,40 +1,107 @@
-# churn-prediction-project
-1. Objectif du Projet
-L'objectif principal de ce projet est d'identifier les clients susceptibles de quitter l'entreprise (churn) en utilisant des techniques d'analyse de données et de machine learning. Cette démarche permet au département Marketing de mettre en place des stratégies de rétention ciblées.
-+1
+📌 Description du projet
 
-2. Problématique
-Dans un contexte de forte concurrence, acquérir un nouveau client coûte plus cher que d'en retenir un existant. Ce projet répond aux questions suivantes :
+Ce projet a pour objectif d’analyser et de prédire le churn client (attrition) à partir du Customer Churn Dataset.
+Le churn représente la perte de clients et constitue un enjeu majeur pour les entreprises, notamment dans les stratégies marketing de fidélisation.
 
-Quels sont les facteurs clés influençant le départ d'un client ? 
+🎯 Objectifs
 
-Pouvons-nous prédire avec précision quels clients vont résilier leur contrat ? 
+Comprendre le comportement des clients
 
-3. Méthodologie
-Le projet suit les étapes standards de la Data Science :
+Identifier les facteurs influençant le churn
 
+Construire un modèle de prédiction du churn
 
-Exploration des données (EDA) : Analyse descriptive pour comprendre les comportements d'achat et les profils des clients.
+Fournir des recommandations marketing basées sur les résultats
 
-Préparation des données : Nettoyage, gestion des valeurs manquantes et encodage des variables catégorielles.
+📂 Dataset
 
-Modélisation : Entraînement d'algorithmes de classification (ex: Régression Logistique, Random Forest ou XGBoost).
+Nom : Customer Churn Dataset
 
-Évaluation : Utilisation de métriques de performance telles que le score F1, la précision et le rappel (Recall) pour minimiser les faux négatifs.
+Source : Kaggle
 
-4. Technologies Utilisées
+Type de données :
 
-Langage : Python (ou R).
+Informations démographiques
 
-Librairies : Pandas, Scikit-Learn, Matplotlib/Seaborn.
+Données contractuelles
 
+Données de facturation
 
-Outils BI (Optionnel) : Power BI ou Tableau pour la visualisation des indicateurs de performance (KPI).
+Variable cible : Churn (Yes / No)
 
-5. Résultats et Visualisations
+🛠️ Outils et technologies
 
-(Note : Vous devrez compléter cette section après vos analyses )
+Python
 
-Identification des segments de clients à haut risque.
+Jupyter Notebook
 
-Visualisation du taux de churn par rapport à l'ancienneté ou au type de contrat.
+Librairies :
+
+pandas
+
+numpy
+
+matplotlib
+
+seaborn
+
+scikit-learn
+
+🔍 Méthodologie
+1. Analyse exploratoire des données
+
+Nettoyage des données
+
+Analyse descriptive
+
+Visualisation des variables
+
+Étude des relations avec la variable churn
+
+2. Prétraitement
+
+Encodage des variables catégorielles
+
+Normalisation des données
+
+Séparation des données en ensembles d’entraînement et de test
+
+3. Modélisation
+
+Régression logistique
+
+Random Forest
+
+Comparaison des performances des modèles
+
+4. Évaluation
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-score
+
+Matrice de confusion
+
+📊 Résultats
+
+Les résultats montrent que le churn est principalement influencé par :
+
+La durée d’abonnement
+
+Le type de contrat
+
+Le montant mensuel facturé
+
+Le modèle retenu permet d’identifier efficacement les clients à risque de churn.
+
+📈 Recommandations marketing
+
+Mettre en place des actions de fidélisation pour les nouveaux clients
+
+Encourager les contrats longue durée
+
+Cibler les clients à fort risque avec des offres personnalisées
