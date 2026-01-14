@@ -1,35 +1,37 @@
-📌 Description du projet
 
-Ce projet a pour objectif d’analyser et de prédire le churn client (attrition) à partir du Customer Churn Dataset.
-Le churn représente la perte de clients et constitue un enjeu majeur pour les entreprises, notamment dans les stratégies marketing de fidélisation.
+Customer Churn Analysis – Marketing Project
+Description du projet
 
-🎯 Objectifs
+Ce projet vise à analyser et prédire le churn client (attrition) à partir du Customer Churn Dataset.
+Le churn représente la perte de clients et constitue un enjeu majeur pour les entreprises souhaitant améliorer leurs stratégies de fidélisation.
 
-Comprendre le comportement des clients
+Objectifs
+
+Analyser le comportement des clients
 
 Identifier les facteurs influençant le churn
 
 Construire un modèle de prédiction du churn
 
-Fournir des recommandations marketing basées sur les résultats
+Proposer des recommandations marketing basées sur les résultats
 
-📂 Dataset
+Dataset
 
 Nom : Customer Churn Dataset
 
 Source : Kaggle
 
-Type de données :
+Contenu :
 
-Informations démographiques
+Données démographiques
 
-Données contractuelles
+Informations contractuelles
 
 Données de facturation
 
 Variable cible : Churn (Yes / No)
 
-🛠️ Outils et technologies
+Outils et technologies
 
 Python
 
@@ -47,8 +49,8 @@ seaborn
 
 scikit-learn
 
-🔍 Méthodologie
-1. Analyse exploratoire des données
+Méthodologie
+Analyse exploratoire des données
 
 Nettoyage des données
 
@@ -56,9 +58,9 @@ Analyse descriptive
 
 Visualisation des variables
 
-Étude des relations avec la variable churn
+Étude de la relation entre les variables et le churn
 
-2. Prétraitement
+Prétraitement
 
 Encodage des variables catégorielles
 
@@ -66,7 +68,7 @@ Normalisation des données
 
 Séparation des données en ensembles d’entraînement et de test
 
-3. Modélisation
+Modélisation
 
 Régression logistique
 
@@ -74,7 +76,7 @@ Random Forest
 
 Comparaison des performances des modèles
 
-4. Évaluation
+Évaluation
 
 Accuracy
 
@@ -86,9 +88,9 @@ F1-score
 
 Matrice de confusion
 
-📊 Résultats
+Résultats
 
-Les résultats montrent que le churn est principalement influencé par :
+L’analyse montre que le churn est principalement influencé par :
 
 La durée d’abonnement
 
@@ -96,12 +98,12 @@ Le type de contrat
 
 Le montant mensuel facturé
 
-Le modèle retenu permet d’identifier efficacement les clients à risque de churn.
+Le modèle retenu permet d’identifier les clients présentant un risque élevé de churn.
 
-📈 Recommandations marketing
+Recommandations marketing
 
 Mettre en place des actions de fidélisation pour les nouveaux clients
 
 Encourager les contrats longue durée
 
-Cibler les clients à fort risque avec des offres personnalisées
+Proposer des offres personnalisées aux clients à risque
